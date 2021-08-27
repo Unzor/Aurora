@@ -4,7 +4,6 @@
 * Licensed under Apache License (see LICENSE for more information)
 */
 
-
 function _0x1e8c(_0x23a932, _0x37d528) {
 	var _0x47e0e7 = _0x47e0();
 	return _0x1e8c = function(_0x1e8c48, _0x4dc290) {
@@ -29,6 +28,7 @@ class Aurora {
 	constructor() {
 		return {
 			'bundleWithPackage': function(_0x31d3c3, _0x2c9ee6, _0x403330) {
+        if (location.protocol == "http:"){throw new Error('The protocol is HTTP! Please switch to HTTPS so the bundling can work!')}
 				var _0xb2651e = _0x1e8c,
 					_0x1c4a73 = new XMLHttpRequest();
 				_0x1c4a73[_0xb2651e(0x102)](_0xb2651e(0xfd), _0xb2651e(0x10d), !![]), _0x1c4a73['setRequestHeader'](_0xb2651e(0x10b), _0xb2651e(0x106)), _0x1c4a73[_0xb2651e(0x112)](JSON['stringify']({
@@ -43,6 +43,7 @@ class Aurora {
 				}));
 			},
 			'bundle': function(_0x2233c8, _0x51c5ce) {
+                if (location.protocol == "http:"){throw new Error('The protocol is HTTP! Please switch to HTTPS so the bundling can work!')}
 				var _0x5206e4 = _0x1e8c,
 					_0x232f6d = new XMLHttpRequest();
 				_0x232f6d['onreadystatechange'] = function() {
