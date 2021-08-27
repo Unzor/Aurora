@@ -1,6 +1,9 @@
 /*
-AuroraJS
+* AuroraJS: A package bundler
+* Copyright (C) 2021 Diego Gabriel Corcuera Camero
+* Licensed under Apache License (see LICENSE for more information)
 */
+
 
 function _0x1e8c(_0x23a932, _0x37d528) {
 	var _0x47e0e7 = _0x47e0();
