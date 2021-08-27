@@ -1,0 +1,22 @@
+{
+  "name": "AuroraJS",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "browserify": "^17.0.0",
+    "chalk": "^4.1.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "shelljs": "^0.8.4",
+    "uniq": "^1.0.1",
+    "webpack-cli": "^4.8.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "browserify $2 -o $1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
