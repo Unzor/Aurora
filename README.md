@@ -2,6 +2,11 @@
 Aurora is a JavaScript library that can bundle packages in the browser using Browserify and POST requests.
 
 # Usage
+First, put this at the beginning of the `<body>` tag:
+```html
+<script src="https://cdn.jsdelivr.net/gh/Unzor/Aurora/dist/aurora.js"></script>
+```
+
 This is how to bundle with packages:
 ```javascript
 var Bundler = new Aurora();
